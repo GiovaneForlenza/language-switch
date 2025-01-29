@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+  justify-content: center;
+  flex-direction: column;
+}
+.flags {
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  .br,
+  .usa {
+    cursor: pointer;
+    width: 50px;
+    img {
+      width: 100%;
+    }
+  }
+  .grayscale{
+    filter: grayscale(1);
+  }
+}
+
+body {
+  background-color: lightyellow;
+}
